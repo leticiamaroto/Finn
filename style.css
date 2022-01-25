@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #2CB3F3;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 2%;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+.head{
+    width: 580px;
+    height: 354px;
+    background-color: #fff;
+    border-radius: 12% 12% 0 0;
+    position: absolute;
+    left: 28%;
+    bottom: 16%;
+}
+.face{
+    width: 450px;
+    height: 280px;
+    background-color:#FFE1C9;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 10%;
+    left: 10%;
+}
+.eye-right{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 62%;
+    top: 30%;
+}
+.eye-left{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 30%
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 550px;
+    top: 360px;
+    
+}
+.email{
+    padding: 2px;
+    width: 230px;
+    height: 35px;
+    font-size: 18px;
+}
+.senha{
+    padding: 2px;
+    width: 230px;
+    height: 35px;
+    font-size: 18px;
+}
+button{
+    display: flex;
+    position: absolute;
+    top: 550px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 1px rgb(51, 50, 50);
+    width: 114px;
+    height: 40px;
+    margin-left: 45vw;
+    background-color:#55A603;
+    cursor: pointer;
+}
+h4{
+    font-size: 16px;
+    font-weight: normal;
+    color: #B2F272;
+    text-align: center;
+    margin-left: 28px;
+    margin-top: 9px;
+}
